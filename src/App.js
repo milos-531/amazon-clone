@@ -8,6 +8,8 @@ import {
 import Header from "./Header";
 import Home from "./Home";
 import Checkout from './Checkout';
+import Login from './Login';
+
 function App() {
   return (
     <Router>
@@ -17,7 +19,7 @@ function App() {
           <Checkout />
         </Route>
         <Route path="/login">
-          <h1>Login</h1>
+          <Login />
         </Route>
         {/* HOMEPAGE */}
         <Route path="/">
